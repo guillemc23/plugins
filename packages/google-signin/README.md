@@ -114,7 +114,7 @@ Checks if device has Google Play Services installed. Always resolves to true on 
 
 Presence of up-to-date Google Play Services is required to show the sign in modal, but it is not required to perform calls to configure and signInSilently. Therefore, we recommend to call hasPlayServices directly before signIn.
 
-``ts
+```ts
 import { GoogleSignin } from "@nativescript/google-signin";
 
 playServicesAvailable: boolean = await GoogleSignin.playServicesAvailable();
